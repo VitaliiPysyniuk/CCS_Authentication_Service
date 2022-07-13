@@ -7,7 +7,6 @@ SIMPLE_JWT = {
     'ROTATE_REFRESH_TOKENS': True,
     'AUTH_HEADER_TYPES': ('Bearer',),
     'ALGORITHM': "HS256",
-    # 'SIGNING_KEY': 'G-KaPdSgVkYp3s5v8y/B?E(H+MbQeThWmZq4t7w9z$C&F)J@NcRfUjXn2r5u8x/A'
     'SIGNING_KEY': os.environ.get('SIGNING_KEY')
 }
 
